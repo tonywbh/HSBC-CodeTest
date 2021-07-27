@@ -12,7 +12,7 @@ Samples as:
 | "(]"      |	false	|
 | "([)]"	|	false	|
 | "{[]}" 	|	true	|
-| "{[}]()" 	|	false	|
+| "(){[}]" 	|	false	|
 
 #### The program can be buildable using the following command
 `lein do test`
